@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #00cee9;
+}
+h1{
+ text-align: center;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ color: #fff;
+ font: bold 80px/1 arial;
+ text-transform: uppercase;
+ color: #ffffff;
+ text-shadow: 0  2px  0   #ffffff,
+              0  4px  0   #5a4e4e,
+              0  6px  0   #615d5d, 
+              0  8px  0   #615d5d, 
+              0 10px  0   #615d5d,
+              0 12px  0   #615d5d,
+             3px 8px 15px rgba(0,0,0,0.1),
+             3px 8px  5px rgba(0,0,0,0.3);
+}
+.card{
+ width: 18rem;
+ height: 29rem;
+ position: relative;
+ left: 42%;
+ top: 50px;
+ border-radius: 10px;
+ background-image:repeating-radial-gradient(#aba6a6,#f8f8f873);
+ box-shadow:0 5px 10px #686666;
+
+}
+h2{
+  text-align: center;
+  color: #ffffff;
+}
+img{
+  width: 12rem;
+  position: relative;
+  left: 13%;
+}
+button{
+ width: 8rem;
+ height: 2rem;
+ position: relative;
+ top: 90px;
+ left: 46%;
+ border-radius: 10px;
+ border: none;
+ outline: none;
+ color: #fff;
+ cursor: pointer;
+ background: #543c87;
+ transition: 0.5s;
+}
+button:hover{
+  color: #d6d5d584;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background: #543c8789;
+}
+
